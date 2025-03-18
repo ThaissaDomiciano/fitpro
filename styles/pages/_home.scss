@@ -20,7 +20,7 @@
   @include mixins.flexbox($align: start, $direction: column);
 
   &.banner-1 {
-    background-image: url('../../assets/main_desktop.png');
+    background-image: url('/assets/main_desktop.png');
 
     .banner-content-container {
       display: grid;
@@ -57,7 +57,7 @@
 
   
   &.banner-2 {
-    background-image: url('../../assets/image_gym.png');
+    background-image: url('/assets/image_gym.png');
     min-height: 25rem;
     @include mixins.flexbox($direction: column);
 
