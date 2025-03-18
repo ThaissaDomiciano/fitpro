@@ -7,7 +7,7 @@
 ##### - *JavaScript*: Interatividade e funcionalidades dinâmicas
 ##### - *SCSS*: Estilização otimizada e modular
 
-## **Tecnologias utilizadas** 📌 
+### **Funcionalidades** 📌 
 ##### - Página de produtos com exibição dinâmica
 ##### - Modais interativos para visualizar detalhes dos itens
 ##### - Alternância entre modo claro e modo escuro
