@@ -1,6 +1,12 @@
 @use '../base/variables';
 
 .dark-mode {
+  .desktop {
+    display: none;
+  }
+  .desktop-dark {
+    display: flex;
+  }
   background-color: variables.$dark-primary-color;
   color: variables.$dark-secondary-color;
 
@@ -34,6 +40,17 @@
       &:hover {
         color: variables.$dark-accent-color;
       }
+    }
+  }
+  .footer-content {
+    background-color: variables.$footer-background-dark;
+  }
+
+   .btn {
+    background-color: variables.$footer-background-dark;
+
+    &:hover {
+    background-color: variables.$tertiary-color;
     }
   }
 }

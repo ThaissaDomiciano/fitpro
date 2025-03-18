@@ -2,6 +2,10 @@
 @use '../utils/mixins';
 @use '../utils/functions';
 
+.desktop-dark {
+  display: none;
+}
+
 .navbar {
   background-color: variables.$secondary-color;
   padding: variables.$padding-regular;

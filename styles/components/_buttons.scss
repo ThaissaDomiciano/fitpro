@@ -13,7 +13,7 @@
   margin-top: 1rem;
   font-size: variables.$font-size-base;
   line-height: 1.5;
-  background-color: variables.$accent-color;
+  background-color: variables.$btn-color;
   @include mixins.transition(background-color);
 
   &:hover {

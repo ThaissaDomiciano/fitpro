@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
-  <title>Serenatto</title>
+  <link rel="shortcut icon" href="./assets/logo_icon.png" type="image/x-icon">
+  <title>FitPro</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap"
     rel="stylesheet">
@@ -18,7 +18,8 @@
     <nav class="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./assets/logo-maior.png" alt="Logo da cafeteria Serenatto">
+          <img src="./assets/logo_desktop.png" alt="Logo da FitPro" class="desktop">
+          <img src="./assets/logo_desktop_dark.png" alt="Logo da FitPro" class="desktop-dark">
         </a>
         <button class="navbar-toggler" aria-label="Menu" id="menu-toggle">
           <span class="hamburger-icon"></span>
@@ -52,7 +53,7 @@
     <aside class="sidebar">
       <button class="sidebar-close" aria-label="Close sidebar">&times;</button>
       <a class="sidebar-brand" href="#">
-        <img src="./assets/logo-mobile.png" alt="Logo da cafeteria Serenatto">
+        <img src="./assets/logo-mobile.png" alt="Logo da FitPro">
       </a>
       <ul class="sidebar-nav">
         <li class="nav-item">
@@ -82,10 +83,9 @@
     <section class="banner banner-1">
       <div class="banner-content-container">
         <div class="banner-content">
-          <img src="./assets/logo-nav.png" alt="">
-          <h2>Sua pausa <br> para <span>desfrutar <br> a vida.</span></h2>
-          <p>Boas-vindas ao & <strong>Bistrô Serenatto!</strong>
-            <br>Um ambiente aconchegante e acolhedor <br> para apreciar um bom café.
+          <h2>Supere seus <br> limites <span> e alcance <br> seu máximo.</span></h2>
+          <p>Boas-vindas ao  <strong>FitPro!</strong>
+            <br>Os melhores produtos fitness para impulsionar seus treinos <br> e melhorar seus resultados!
         </div>
       </div>
     </section>
@@ -93,67 +93,61 @@
       <h2>Nossos Serviços</h2>
       <div class="services-container">
         <article class="card">
-          <img src="./assets/cafe-e-bistro.png" alt="Balcão de padaria tradicional com alimentos diversos">
+          <img src="./assets/acessorios.png" alt="Acessórios fitness">
           <div class="card-body">
-            <h5>Café & Bistrô</h5>
-            <p>Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos salgados e sobremesas. Uma
-              excelente opção para quem busca um lugar tranquilo e aconchegante.</p>
+            <h5>Acessórios</h5>
+            <p>Os melhores acessórios para tornar seus treinos mais eficientes e confortáveis! Encontre luvas, faixas, cordas de pular, tapetes de yoga e muito mais. Equipamentos que fazem a diferença na sua performance e segurança.</p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/buffet.png" alt="Mesa de buffet com alimentos diversos">
+          <img src="./assets/roupas.png" alt="Mulher com roupa de academia">
           <div class="card-body">
-            <h5>Buffet</h5>
-            <p>Buffet e catering personalizado para eventos, produções e celebrações. Com um menu variado e adaptável às
-              preferências do cliente, atendimento atencioso e profissional.</p>
+            <h5>Roupas</h5>
+            <p>Estilo e funcionalidade para qualquer treino! Nossas roupas são desenvolvidas com tecidos de alta tecnologia para garantir conforto, respirabilidade e liberdade de movimento. Oferecemos estilos para moda feminina e masculina. </p>
           </div>
         </article>
         <article class="card">
-          <img src="./assets/delivery.png" alt="Caixa aberta armazenando comidas diversas">
+          <img src="./assets/suplementos.png" alt="Mulher tomando suplemento">
           <div class="card-body">
-            <h5>Delivery</h5>
-            <p>Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos produtos. Com o mesmo cardápio
-              variado de sempre, sem perder nosso sabor e padrão de qualidade.</p>
+            <h5>Suplementos</h5>
+            <p>Apoie sua alimentação e melhore seu desempenho com os melhores suplementos! Proteínas, pré-treinos, vitaminas e muito mais, selecionados para ajudar no seu crescimento muscular, recuperação e energia.</p>
           </div>
         </article>
       </div>
     </section>
     <section class="banner banner-2">
-      <h2>Portas abertas para todos os públicos.</h2>
-      <p>Nosso espaço é aconchegante, pet friendly, preparado para receber crianças e pessoas com deficiência.
-        Também oferecemos ambiente de coworking!</p>
     </section>
     <section class="products" id="produtos">
       <h2>Nossos produtos</h2>
       <div class="products-container">
         <div class="product-card" data-modal="modal-1">
-          <img src="./assets/cafe-tradicional.png" alt="Café preto">
-          <h3>Cafés Tradicionais</h3>
+          <img src="./assets/whey.png" alt="Whey Protein">
+          <h3>Whey Protein</h3>
         </div>
         <div class="product-card" data-modal="modal-2">
-          <img src="./assets/cafe-especial.png" alt="Café expresso">
-          <h3>Cafés Especiais</h3>
+          <img src="./assets/vitamina.png" alt="Vitamina">
+          <h3>Vitaminas</h3>
         </div>
-        <div class="product-card">
-          <img src="./assets/smoothies.png" alt="Vitaminas variadas">
-          <h3>Smoothies e Vitaminas</h3>
+        <div class="product-card" data-modal="modal-3" >
+          <img src="./assets/pre-treino.png" alt="Pré-treino">
+          <h3>Pré-treino</h3>
         </div>
-        <div class="product-card">
-          <img src="./assets/paes.png" alt="Pães variados">
-          <h3>Pães e Focaccias</h3>
+        <div class="product-card" data-modal="modal-4">
+          <img src="./assets/feminino.png" alt="Roupas femininas de academia">
+          <h3>Roupas femininas</h3>
         </div>
-        <div class="product-card">
-          <img src="./assets/bolo.png" alt="Bolo de morango">
-          <h3>Doces</h3>
+        <div class="product-card" data-modal="modal-5">
+          <img src="./assets/masculino.png" alt="Roupas masculinas de academia">
+          <h3>Roupas masculinas</h3>
         </div>
-        <div class="product-card">
-          <img src="./assets/quiche.png" alt="Torta salgada">
-          <h3>Salgados</h3>
+        <div class="product-card" data-modal="modal-6">
+          <img src="./assets/acessorios_produto.png" alt="Acessórios fitness">
+          <h3>Acessórios</h3>
         </div>
       </div>
     </section>
-    <section class="">
-      <img src="../../assets/cafe-graos.png" alt="Grãos de café">
+    <section class="banner-3">
+      <h2></h2>
     </section>
     <section class="contact">
       <div class="contact-container">
@@ -200,16 +194,14 @@
   <dialog id="modal-1" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title">Cafés tradicionais</h2>
+        <h2 class="modal-title">Whey Protein</h2>
         <button type="button" class="close-button" aria-label="Close">×</button>
       </div>
       <div class="modal-body">
-        <img src="./assets/cafe-tradicional.png" class="modal-image" alt="Xícara de café preto">
-        <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
-          Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
-        <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
-          notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso.
-          Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+        <img src="./assets/whey.png" class="modal-image" alt="Whey protein">
+        <p>O whey protein é um suplemento proteico derivado do soro do leite, conhecido por ajudar no ganho de massa muscular e recuperação após treinos.
+           Rico em aminoácidos essenciais, é rapidamente absorvido pelo corpo, sendo ideal para atletas e pessoas que buscam aumentar a ingestão de proteínas de 
+           forma prática.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="close-button">Fechar janela</button>
@@ -221,25 +213,100 @@
   <dialog id="modal-2" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title">Cafés especiais</h2>
+        <h2 class="modal-title">Vitaminas</h2>
         <button type="button" class="close-button" aria-label="Close">×</button>
       </div>
       <div class="modal-body">
-        <img src="./assets/cafe-especial.png" class="modal-image" alt="Xícara de café expresso">
-        <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados
-          de alta qualidade e técnicas de preparo precisas.</p>
-        <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado
-          com uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra opção
-          popular é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma bebida
-          limpa e suave, ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de bebidas
-          geladas, como o café gelado, que é preparado com grãos torrados escuros e servido com gelo e leite, resultando
-          em uma bebida refrescante e saborosa.</p>
+        <img src="./assets/vitamina.png" class="modal-image" alt="Vitaminas">
+        <p>As vitaminas em cápsula são suplementos que fornecem nutrientes essenciais para o corpo, como vitaminas A, C, D, E e do complexo B. Elas ajudam a suprir 
+          deficiências nutricionais e promovem a saúde geral, fortalecendo o sistema imunológico, a pele e os ossos, além de melhorar a energia e o metabolismo.
+          São uma opção prática para quem tem dificuldade em obter todas as vitaminas necessárias através da alimentação.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="close-button">Fechar janela</button>
       </div>
     </div>
   </dialog>
+
+  <div id="modal-backdrop-3" class="modal-backdrop"></div>
+  <dialog id="modal-3" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Pré-treino</h2>
+        <button type="button" class="close-button" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/pre-treino.png" class="modal-image" alt="Pré-treino">
+        <p>O pré-treino é um suplemento popular entre os praticantes de atividades físicas, especialmente aqueles que buscam melhorar o desempenho
+           durante o treino, aumentar a resistência e o foco mental. Ele é geralmente consumido cerca de 20 a 30 minutos antes de iniciar a 
+           atividade física, para fornecer energia imediata e prolongada.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="close-button">Fechar janela</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="modal-backdrop-4" class="modal-backdrop"></div>
+  <dialog id="modal-4" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Roupas femininas</h2>
+        <button type="button" class="close-button" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/feminino.png" class="modal-image" alt="Roupas femininas">
+        <p>As roupas fitness femininas desempenham um papel fundamental na performance e conforto durante os treinos, 
+          além de estarem cada vez mais associadas ao estilo pessoal e à moda. Elas são projetadas para garantir liberdade de movimento, 
+          conforto e suporte, sendo adequadas para diferentes tipos de exercícios.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="close-button">Fechar janela</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="modal-backdrop-5" class="modal-backdrop"></div>
+  <dialog id="modal-5" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Roupas masculinas</h2>
+        <button type="button" class="close-button" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/masculino.png" class="modal-image" alt="Roupas masculinas">
+        <p>As roupas fitness masculinas são fundamentais para proporcionar conforto, suporte e desempenho durante os treinos,
+           além de se alinharem ao estilo de cada homem. Assim como no universo feminino, essas peças não são apenas funcionais, 
+           mas também refletem as tendências de moda, unindo conforto e estilo.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="close-button">Fechar janela</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="modal-backdrop-6" class="modal-backdrop"></div>
+  <dialog id="modal-6" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Acessórios</h2>
+        <button type="button" class="close-button" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/acessorios_produto.png" class="modal-image" alt="Acessórios fitness">
+        <p>Os acessórios fitness são itens que complementam os treinos, proporcionando conforto, praticidade e estilo. 
+          Além de ajudarem a melhorar o desempenho físico, esses acessórios tornam os treinos mais agradáveis e eficientes.
+          Eles incluem uma ampla gama de produtos, desde itens que ajudam a manter o corpo hidratado até acessórios que protegem do sol
+          e melhoram a performance. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="close-button">Fechar janela</button>
+      </div>
+    </div>
+  </dialog>
+
+  
+  
   <script type="module" src="src/main.js"></script>
 </body>
 

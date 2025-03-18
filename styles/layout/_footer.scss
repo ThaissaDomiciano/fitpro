@@ -2,7 +2,7 @@
 @use "../utils/mixins";
 
 .footer-content {
-  background-color: variables.$accent-color;
+  background-color: variables.$footer-background;
   color: variables.$secondary-color;
   text-align: center;
   padding: variables.$padding-regular;

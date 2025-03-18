@@ -20,7 +20,7 @@
   @include mixins.flexbox($align: start, $direction: column);
 
   &.banner-1 {
-    background-image: url('../../assets/banner-1.png');
+    background-image: url('../../assets/main_desktop.png');
 
     .banner-content-container {
       display: grid;
@@ -49,13 +49,19 @@
         font-size: variables.$font-size-base;
       }
     }
+
+    span {
+      color: variables.$tertiary-color;
+    }
   }
 
+  
   &.banner-2 {
-    background-image: url('../../assets/banner-2.png');
+    background-image: url('../../assets/image_gym.png');
     min-height: 25rem;
     @include mixins.flexbox($direction: column);
 
+    
     h2 {
       @extend %base-h2;
       text-align: center;
